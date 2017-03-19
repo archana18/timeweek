@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Prabhakar: MyString
+  PrabhakarRepository: MyString
+  Timeweek: MyText
+
+two:
+  Prabhakar: MyString
+  PrabhakarRepository: MyString
+  Timeweek: MyText
