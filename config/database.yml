@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: utf8
+  database: timemanagement_development
+  pool: 5
+  password: wicked
+
+test: &TEST
+  adapter: postgresql
+  encoding: utf8
+  database: timemanagement_test
+  pool: 5
+  password: wicked
+
+production:
+  adapter: postgresql
+  encoding: utf8
+  database: timemanagement_production
+  pool: 5
+  password: wicked
+
+cucumber:
+  <<: *TEST
